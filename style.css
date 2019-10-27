@@ -1,0 +1,126 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:rgb(0, 0, 0);
+}
+.canvas_wrapper{
+    margin:0 auto;
+    max-width: 1440px;
+    overflow: hidden;
+}
+header{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b8b8b8;
+    box-shadow: 0 10px 10px #b8b8b8;
+}
+.header__menu{
+    width:24px;
+    height:30px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    position: relative;
+    margin:8px 24px 8px 16px;
+    text-align: center;
+    line-height: 0;
+    cursor: pointer;
+}
+.header__menu span{
+    display:inline-block;
+    width:18px;
+    height:2px;
+    background:#757575;
+    margin:0 0 3px;
+}
+.header__etc{
+    width: 12px;
+    margin: 8px 16px 16px 0;
+    cursor: pointer;
+    line-height: 0;
+}
+.header__etc span{
+    display:inline-block;
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    background:#757575;
+    margin:0 0 2px;
+}
+.header__name{
+    font-size: 20px;
+    width: 100%;
+}
+.markup{
+    padding:79px 29px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.tools, .palette{
+    width: 228px;
+    margin:0 0 92px;
+    box-shadow: 0 5px 7px #b8b8b8;
+    padding-bottom:30px;
+}
+.markup__panel li{
+    position: relative;
+    padding: 12px 16px 13px;
+    cursor: pointer;
+    text-indent: 43px;
+    color:rgb(0, 0, 0, 0.6);
+}
+.markup__panel li:hover{
+    color:rgb(0, 0, 0);
+}
+.markup__panel li::before{
+    content: "";
+    display: block;
+    height: 48px;
+    width: 24px;
+    position: absolute;
+    top:0;
+    left:16px;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+.markup__panel li.choose-color, .markup__panel li.prev{
+    border-bottom:1px solid #e0e0e0;
+    margin-bottom: 8px;
+    padding-bottom: 23px;
+}
+.markup__panel li.paint::before{
+    background-image: url(./assests/img/icon-share1.png);
+}
+.markup__panel li.choose-color::before{
+    background-image: url(./assests/img/icon-upload.png);
+}
+.markup__panel li.move::before{
+    background-image: url(./assests/img/icon-copy.png);
+}
+.markup__panel li.transform::before{
+    background-image: url(./assests/img/icon-share.png);
+}
+.markup__panel .palette li::before{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border:1px solid #000;
+    top:14px;
+    left:18px;
+}
+
+.markup__panel li.current::before{
+background: #C4C4C4;
+}
+.markup__panel li.prev::before{
+    background: #41f795;
+}
+.markup__panel li.red::before{
+    background: #000;
+}
+.markup__panel li.blue::before{
+    background: #41b6f7;
+}
+    
