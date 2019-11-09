@@ -1,3 +1,4 @@
+
 var ctx = document.getElementById('canvas').getContext('2d');
 
 const getFrames = () => {
@@ -6235,6 +6236,9 @@ function draw(frames){
     frame.forEach((row, i) => {
         row.forEach((column, j) => {
         ctx.fillStyle = "#" + column;
+        if(j == 5){
+        console.log("column = ", column);
+        }
         ctx.fillRect(j*128, i*128, 128, (i+1)*128); 
       })
     });
@@ -6244,9 +6248,10 @@ function draw(frames){
     const frame2 = frames2[0];
     frame2.forEach((row, i) => {
         row.forEach((column, j) => {
-        ctx.fillStyle = 'rgb(' + j*16 + ',' +
-        Math.floor(255-42.5*j) + ',0)';
+        ctx.fillStyle = `rgb(${column})`;
+        console.log(`rgb(${column})`);
         ctx.fillRect(j*16, i*16, 16, (i+1)*16); 
+        
       })
     });
  
