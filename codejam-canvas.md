@@ -60,25 +60,25 @@ Thanks Victor (@MitskevichVS) for the gif!
 Maximum amount of points - **50**
 
 #### Basic scope (**30**):
-- [ ] Layout (menu, tools, canvas) — **10**
-- [ ] Drawing color matrixes
-  - [ ] 4x4 - **10**
-  - [ ] 32x32 - **10**
+- [x] Layout (menu, tools, canvas) â€” **10**
+- [x] Drawing color matrixes
+  - [x] 4x4 - **10**
+  - [ ] 32x32 - **10** (incorrect drawing)
 
 #### Extra scope (only if the basic scope is implemented)
-- [ ] Show image on canvas **10**
-- [ ] Dynamic canvas size switcher **10**
+- [x] Show image on canvas **10**
+- [x] Dynamic canvas size switcher **10**
 
 
 #### Fines
-- Requirements for commits, repo and PR are not met — up to **-20**
+- Requirements for commits, repo and PR are not met â€” up to **-20**
 
 ## Additional info
-* Expected time to accomplish task — 4–8 hours
+* Expected time to accomplish task â€” 4â€“8 hours
 * https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 * https://graphicdesign.stackexchange.com/questions/49691/how-to-convert-an-array-of-html-colours-into-into-a-picture
-* very simple canvas course — https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/a/learning-programming-on-khan-academy
-* https://www.youtube.com/watch?v=8ZGAzJ0drl0 — video about how to draw on canvas
+* very simple canvas course â€” https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/a/learning-programming-on-khan-academy
+* https://www.youtube.com/watch?v=8ZGAzJ0drl0 â€” video about how to draw on canvas
 
 * Topics: `arrays`, `canvas`, `markup`, `json`
 
